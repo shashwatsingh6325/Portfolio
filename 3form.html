@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>
+    Review
+</title>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Review :</h2>
+    <from action="backend.php">
+        <div>
+            Name :<br> <input type="text" name="name">
+        </div>
+        <br>
+        <div>
+            Email :<br><input type="text" name="email">
+        </div>
+        <br>
+        <div>
+            Phone Number :<br><input type="number" name="phonenumber">
+        </div>
+        <br>
+        <div>
+            Date of Review :<input type="date" name="dateofreview">
+        </div>
+        <br>
+        <div>
+            Write your Review here.<br><textarea name="review" cols="10" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            Do you like this website ? : Loved it !!!<input type="radio" name="like"> Not that much. <input type="radio"
+                name="like">
+        </div>
+        <br>
+        <div>
+            Can I store the data entered by you ? : <input type="checkbox" name="consent">
+        </div>
+        <br>
+        <div>
+            <label for="Satisfactionlevel">Satisfaction Level :</label>
+            <select name="Satisfaction Level:" id="satisfactionlevel">
+                <option value="veryhappy">Very Happy</option>
+                <option value="happy">Happy</option>
+                <option value="ok">Ok</option>
+                <option value="bad">Bad</option>
+                <option value="verysad">Very Sad</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            Submit : <input type="submit" value="Yes"> <input type="submit" value="No">
+        </div>
+    </from>
+</body>
+
+</html>
